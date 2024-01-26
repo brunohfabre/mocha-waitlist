@@ -19,7 +19,7 @@ export default function Home() {
         <div className="flex flex-col gap-8 lg:gap-10 px-6 lg:px-4">
           <p className="text-4xl text-white text-center lg:text-7xl font-semibold max-w-5xl self-center">
             Mocha is the new standard for{' '}
-            <span className="font-bold bg-gradient-to-r from-mocha-orange to-mocha-pink text-background-gradient">
+            <span className="font-bold bg-gradient-to-br lg:bg-gradient-to-r from-mocha-orange to-mocha-pink text-background-gradient">
               project management
             </span>
           </p>
@@ -37,7 +37,7 @@ export default function Home() {
 
             <button
               type="button"
-              className="bg-gradient-to-br from-mocha-orange to-mocha-pink h-12 px-6 whitespace-nowrap text-white font-semibold rounded-lg hover:opacity-90 transition-all"
+              className="bg-gradient-to-r lg:bg-gradient-to-br from-mocha-orange to-mocha-pink h-12 px-6 whitespace-nowrap text-white font-semibold rounded-lg hover:opacity-90 transition-all"
             >
               Join waitlist
             </button>
