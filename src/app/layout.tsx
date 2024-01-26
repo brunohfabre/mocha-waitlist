@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 import { Plus_Jakarta_Sans } from 'next/font/google'
+
 import './globals.css'
+
 import { twMerge } from 'tailwind-merge'
 
 const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Mocha - waitlist',
+  title: 'Mocha – The new standard for project management.',
 }
 
 export default function RootLayout({
