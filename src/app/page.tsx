@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
 import LogoImage from '@/assets/images/logo.png'
+import AppImage from '@/assets/images/app.png'
 
 export default function Home() {
   return (
@@ -44,7 +45,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="h-32 lg:h-64 bg-gray-800 rounded-tl-2xl rounded-tr-2xl mx-6 lg:mx-16" />
+        <div className="h-32 lg:h-64 bg-gray-800 rounded-tl-lg rounded-tr-lg mx-6 lg:mx-16 overflow-clip relative">
+          <div className="inset-0 absolute bg-gradient-to-t from-black/75 to-black/10" />
+          <Image
+            src={AppImage}
+            alt="App"
+            className="w-full h-full object-cover object-top"
+          />
+        </div>
       </div>
     </div>
   )
