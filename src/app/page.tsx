@@ -50,7 +50,7 @@ export default function Home() {
           <Image
             src={AppImage}
             alt="App"
-            className="w-full h-full object-cover object-top"
+            className="w-full h-full object-cover object-top min-w-[640px]"
           />
         </div>
       </div>
